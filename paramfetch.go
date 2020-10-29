@@ -24,7 +24,7 @@ var log = logging.Logger("build")
 
 //const gateway = "http://198.211.99.118/ipfs/"
 // const gateway = "https://proofs.filecoin.io/ipfs/"
-const gateway = "http://118.123.241.59:8080/ipfs/"
+const gateway = "http://proofs.file.cash:8080/ipfs/"
 const paramdir = "/var/tmp/filecoin-proof-parameters"
 const dirEnv = "FIL_PROOFS_PARAMETER_CACHE"
 
