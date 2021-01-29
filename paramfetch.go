@@ -24,7 +24,7 @@ var log = logging.Logger("build")
 
 //const gateway = "http://198.211.99.118/ipfs/"
 const gateway = "https://proofs.filecoin.io/ipfs/"
-const paramdir = "/var/tmp/filecoin-proof-parameters"
+const paramdir = "/data/lotus/folder/filecoin-proof-parameters"
 const dirEnv = "FIL_PROOFS_PARAMETER_CACHE"
 
 var checked = map[string]struct{}{}
